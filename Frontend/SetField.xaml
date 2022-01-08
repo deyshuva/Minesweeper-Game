@@ -1,0 +1,33 @@
+﻿<Window x:Class="MineSweeperFinal.SetField"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MineSweeperFinal"
+        mc:Ignorable="d"
+        Title="SetField" Height="450" Width="500">
+    <Grid Height="430" Width="480 " Margin="3,-15,0,-11" Background="#FFCFCFCF">
+
+        <Button x:Name="xml_button" Content="Save into XML" HorizontalAlignment="Left" VerticalAlignment="Top"
+                Height="40" Width="130" Background="#FFF7F7F7" FontSize="16" Margin="345,231,0,0" Click="xml_button_Click"/>
+
+        <Button x:Name="auto_button" Content="Auto Populate" HorizontalAlignment="Left" Margin="350,289,0,0" VerticalAlignment="Top"
+                Height="40" Width="120" Background="#FFF7F7F7" FontSize="16" Click="auto_button_Click"/>
+        <Button x:Name="back_button" Content="Back" HorizontalAlignment="Left" Margin="350,343,0,0" VerticalAlignment="Top"
+                Height="40" Width="120" Background="#FFF7F7F7" FontSize="16" Click="back_button_Click"/>
+        <Grid Height="220" Width="220" Margin="27,79,197,101" Background="#FF787171">
+            <TextBox x:Name="box_0_0" HorizontalAlignment="Left" Margin="10,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Normal" FontSize="16"/>
+            <TextBox x:Name="box_0_1" HorizontalAlignment="Left" Margin="78,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50"/>
+            <TextBox x:Name="box_0_2" HorizontalAlignment="Left" Margin="146,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50"/>
+            <TextBox x:Name="box_1_0" HorizontalAlignment="Left" Margin="10,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50"/>
+            <TextBox x:Name="box_1_1" HorizontalAlignment="Left" Margin="78,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50"/>
+            <TextBox x:Name="box_1_2" HorizontalAlignment="Left" Margin="146,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50"/>
+            <TextBox x:Name="box_2_0" HorizontalAlignment="Left" Margin="10,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50"/>
+            <TextBox x:Name="box_2_1" HorizontalAlignment="Left" Margin="78,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50"/>
+            <TextBox x:Name="box_2_2" HorizontalAlignment="Left" Margin="146,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50"/>
+
+        </Grid>
+        <Label Content="Please, put 'M' where you want to assign mines " HorizontalAlignment="Left" Margin="36,29,0,0" VerticalAlignment="Top" FontSize="16"/>
+
+    </Grid>
+</Window>
